@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-height: 80px;
+}
+
+.scrolled {
+  --header-height: 64px;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
